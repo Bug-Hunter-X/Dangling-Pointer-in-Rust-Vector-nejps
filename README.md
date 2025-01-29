@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: using a raw pointer to modify a vector after the vector itself has been dropped. This can lead to undefined behavior and crashes. The solution shows how to safely manage memory by avoiding raw pointer manipulation unless absolutely necessary and utilizing Rust's ownership system.
